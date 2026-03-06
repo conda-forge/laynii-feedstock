@@ -1,5 +1,5 @@
 {% set name = "LAYNII" %}
-{% set version = "2.7.0" %}
+{% set version = "2.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/layerfMRI/LAYNII/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: f0f45c6e80afaca1d89a4721dda70f152c175434e19358974a221ef9c713826b
+  sha256: 9b1647fbe97816b199fb2449c19c04380f0c4a20c835eca3c6a57c0dbfe96830
   patches:
     - patches/0001-fix-makefile-compiler-flags.patch
 
